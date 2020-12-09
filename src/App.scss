@@ -1,0 +1,29 @@
+.products {
+  .product-img {
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+  }
+
+  .product-title {
+    overflow: hidden;
+    width: auto;
+    height: 50px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .product-description {
+    overflow: hidden;
+    width: auto;
+    height: 70px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.p-img {
+  height: 500px;
+}
